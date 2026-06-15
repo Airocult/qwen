@@ -15,7 +15,7 @@ import json
 # Import core modules
 import sys
 sys.path.insert(0, '/workspace/src')
-from core import (
+from src.core import (
     Coordinate, Component, Pad, Net, 
     TraceSegment, Via, Route, DesignRules, Stackup,
     ImpedanceCalculator, CurrentCapacityCalculator, ClearanceCalculator
